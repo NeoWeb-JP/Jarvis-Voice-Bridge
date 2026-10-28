@@ -1,7 +1,7 @@
 {
   "domain": "jarvis_voice_bridge",
   "name": "Jarvis Voice Bridge",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "documentation": "https://github.com/NeoWeb-JP/Jarvis-Voice-Bridge",
   "codeowners": [],
   "config_flow": true,
