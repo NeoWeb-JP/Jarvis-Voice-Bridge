@@ -19,3 +19,7 @@ Keep the previous bridge folder or a Home Assistant backup. After any change, te
 ## Branding compatibility (0.3.0)
 
 The assistant character is Declan; this bridge keeps generic software labels. Domain `jarvis_voice_bridge`, all registration unique IDs, host/port keys, `jarvis-speaker` events and `jarvis_speaker` metadata remain unchanged. Existing registry names may retain older labels; rename display labels only, not IDs. The generic text-free house/voice icon is retained. No recognition model, initial prompt, speaker thresholds, endpoint, pipeline or live configuration is changed. Declan text aliases are handled by Home Voice Assistant; they do not install a hardware wake-word model. Installation and playback/barge-in acceptance on each satellite remain separate live checks.
+
+## Validation scope
+
+CI runs bridge compatibility tests, HA manifest validation and HACS custom-package checks. The HACS job explicitly excludes repository description/topics and OSI-licence publication checks: these metadata and licensing decisions remain outstanding before default-store inclusion. No licence is selected by this branding change. This is not a claim of public HACS inclusion readiness; see NeoWeb-JP/Jarvis-Local issue #6 for distribution coordination.
